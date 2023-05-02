@@ -1,0 +1,41 @@
+{
+  "name": "bigbites",
+  "version": "1.0.0",
+  "description": "bigbites",
+  "scripts": {
+    "build": "parcel build index.html",
+    "start": "parcel index.html",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SwayamDebata/namaste-react-repo.git"
+  },
+  "author": "swayam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SwayamDebata/namaste-react-repo/issues"
+  },
+  "homepage": "https://github.com/SwayamDebata/namaste-react-repo#readme",
+  "devDependencies": {
+    "@babel/core": "^7.21.3",
+    "babel-plugin-transform-remove-console": "^6.9.4",
+    "parcel": "^2.8.3",
+    "postcss": "^8.4.22",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.1"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.9.5",
+    "autoprefixer": "^10.4.14",
+    "formik": "^2.2.9",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-redux": "^8.0.5",
+    "react-router-dom": "^6.10.0",
+    "react-type-animation": "^3.0.1",
+    "swiper": "^9.2.3",
+    "yup": "^1.0.2"
+  }
+}
